@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YesuWay Academy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container center-header">
+      <span class="logo-text">YesuWay Academy</span>
+    </div>
+  </header>
+
+  <!-- Main Content Placeholder -->
+  <main class="main-content">
+      <div class="container">
+    <div class="main-video">
+      <h2>Now Playing</h2>
+      <video id="mainPlayer" controls autoplay>
+        <source src="videos/video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="suggestions">
+      <h2>Suggestions</h2>
+
+      <div class="suggestion" onclick="changeVideo('video1.mp4')">
+        <video muted>
+          <source src="videos/video2.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="suggestion" onclick="changeVideo('video2.mp4')">
+        <video muted>
+          <source src="videos/video3.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <!-- Top Section -->
+    <div class="container footer-grid">
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Life Groups</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Live Chat</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+            <ul>
+                <li><a href="#" aria-label="Instagram">Instagram</a></li>
+                <li><a href="#" aria-label="TikTok">TikTok</a></li>
+                <li><a href="#" aria-label="Facebook">Facebook</a></li>
+                <li><a href="#" aria-label="YouTube">YouTube</a></li>
+            </ul>
+      </div>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="footer-bottom">
+      <p>© 2025 YesuWay Academy. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
